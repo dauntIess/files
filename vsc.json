@@ -1,0 +1,97 @@
+{
+    "editor.fontSize": 12,
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorBlinking": "expand",
+    "workbench.editor.enablePreview": true,
+    "editor.minimap.renderCharacters": true,
+    "editor.minimap.enabled": true,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "editor.tokenColorCustomizations": {
+      "types": "#c0c3c4",
+      "strings": "#c4bcce",
+      "variables": "#949494",
+      "numbers": "#dcbaf3",
+      "functions": "#ba93c4",
+      "comments": "#3d3d3d",
+      "[mono dark]": {
+        "textMateRules": [
+          {
+            "scope": "keyword.operator",
+            "settings": {
+              "foreground": "#f598f8"
+            }
+          },
+          {
+            "scope": "entity.name.function",
+            "settings": {
+              "foreground": "#d7bad8",
+              "fontStyle": ""
+            }
+          },
+          {
+            "scope": "entity.other",
+            "settings": {
+              "foreground": "#f1e0f1",
+              "fontStyle": ""
+            }
+          },
+          {
+            "scope": "constant",
+            "settings": {
+              "foreground": "#f3bdf5",
+              "fontStyle": "italic"
+            }
+          }
+        ]
+      },
+    },
+    "workbench.colorCustomizations": {
+      "list.inactiveSelectionBackground": "#242424",
+      "sideBar.background": "#121212",
+      "sideBar.foreground": "#acbabe",
+      "editor.background": "#121212",
+      "editor.foreground": "#383838",
+      "sideBarSectionHeader.background": "#817f7f",
+      "sideBarSectionHeader.foreground": "#acc7ce",
+      "activityBar.border": "#3a3a3a",
+      "statusBar.background": "#2c2c2c",
+      "editorBracketHighlight.foreground1": "#c972e4",
+      "editorBracketHighlight.foreground2": "#74597a",
+      "editorBracketHighlight.foreground3": "#c972e4",
+      "scrollbarSlider.activeBackground": "#77D4CB",
+      "scrollbarSlider.hoverBackground": "#8CE6DA",
+      "badge.background": "#acbcbd"
+    },
+    "editor.wrappingIndent": "indent",
+  
+    "editor.bracketPairColorization.enabled": true,
+    "settingsSync.ignoredSettings": [
+    
+  
+    ],
+    "vscord.status.problems.text": "",
+    "vscord.status.state.text.editing": "editing {file_name}{file_extension} @ line {current_line}",
+    "vscord.status.state.text.debugging": "debugging: {workspace}",
+    "vscord.status.state.text.viewing": " viewing {file_name}{file_extension}",
+    "vscord.status.state.text.noWorkspaceFound": "working on nothing.",
+    "vscord.status.state.text.notInFile": "working on nothing.",
+    "vscord.status.state.text.idle": "working on nothing.",
+    "editor.semanticHighlighting.enabled": true,
+    "settingsSync.ignoredExtensions": [
+
+    ],
+    "workbench.colorTheme": "mono dark",
+    "vscord.status.details.text.editing": "in {workspace}.",
+    "vscord.status.details.text.noWorkSpaceText": "browsing.",
+    "vscord.status.details.text.notInFile": "browsing.",
+    "vscord.status.details.text.idle": "idle.",
+    "vscord.status.details.text.debugging": "debugging {file_name}{file_extension}.",
+    "vscord.status.problems.countedSeverities": [
+      "error"
+    ],
+    "vscord.status.showElapsedTime": false,
+    "json.schemas": [
+    
+    ]
+  }
